@@ -57,3 +57,5 @@ function getTasksFromLocalStorage() {
     }
 }
 ```
+
+![screenshot](https://github.com/David12307/javascript-todo/blob/main/screenshot?raw=true)
