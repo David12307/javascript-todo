@@ -23,10 +23,10 @@ The tasks are saved in the browser's *localStorage*, so your data persists even 
 
 # File structure
 project-directory/
-|--- index.html # The main HTML file for the app
-|--- styles.css # The main CSS file for the app
-|--- main.js # The JavaScript app containing the functionality of the app
-└--- README.md # The file you're reading right now (documentation)
+├── index.html         # The main HTML file for the app
+├── style.css          # The CSS file for styling the app
+├── script.js          # The JavaScript file containing the app logic
+└── README.md          # Documentation for the project
 
 # Code highlights
 Saving tasks to localStorage
