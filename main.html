@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>d10D0d - ToDo list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Tasks completed: <p id="noTasks">0</p></h1>
+        <input placeholder="Enter a task" type="text" id="taskBox"/>
+        <button onclick="addTask()" id="addButton" type="submit">Add</button>
+        <button onclick="removeAll()" id="removeButton" type="button">Remove all</button>
+        <hr>
+        <ul id="taskList">
+            
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

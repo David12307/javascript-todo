@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+#container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media only screen and (min-width: 768px) {
+    #container {
+        width: 60%;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+#taskBox {
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    width: 50%;
+}
+
+#addButton {
+    background-color: #85A947;
+    width: 50px;
+}
+
+#removeButton {
+    background-color: #C62300;
+    width: 100px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    font-weight: bolder;
+    border-radius: 2px;
+}
