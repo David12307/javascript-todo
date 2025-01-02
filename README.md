@@ -22,13 +22,13 @@ The tasks are saved in the browser's *localStorage*, so your data persists even 
 * All tasks and the count of completed tasks are saved in the browser's localStorage. This ensures that tasks remain saved even after the page is refreshed or reopened.
 
 # File structure
-``
+```
 project-directory/
 ├── index.html         # The main HTML file for the app
 ├── style.css          # The CSS file for styling the app
 ├── script.js          # The JavaScript file containing the app logic
 └── README.md          # Documentation for the project
-``
+```
 
 # Code highlights
 Saving tasks to localStorage
